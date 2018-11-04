@@ -1,0 +1,19 @@
+[package]
+name = "rust-101"
+version = "0.1.0"
+authors = ["Anatolii <java1cprog@yandex.ru>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name="part0"
+path="src/part0.rs"
+
+[[bin]]
+name="part01"
+path="src/part01.rs"
+
+[[bin]]
+name="part02"
+path="src/part02.rs"
